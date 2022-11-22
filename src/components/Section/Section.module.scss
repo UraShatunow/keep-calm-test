@@ -1,0 +1,46 @@
+.section {
+	margin-top: 300px;
+}
+
+.top,
+.bot {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-right: var(--pcMarginWAlt);
+}
+
+.bot {
+	margin-top: 100px;
+	margin-left: var(--pcMarginW);
+}
+
+.imgTop {
+	width: 860px;
+	height: 480px;
+	min-width: 45vw;
+	margin-right: 120px;
+}
+
+.imgBot {
+	width: 600px;
+	height: 410px;
+	min-width: 31vw;
+	margin-left: 120px;
+}
+
+.textTop,
+.textBot {
+	max-width: 600px;
+	height: 100%;
+}
+
+p:first-of-type {
+	margin-top: 25px;
+}
+
+p {
+	font-size: 18px;
+	line-height: 130%;
+	margin-top: 12px;
+}
